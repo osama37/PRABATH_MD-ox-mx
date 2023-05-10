@@ -3,29 +3,29 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("37122227437")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
-global.email = 'sam@sec.live'
+global.email = 'saheka9258@satering.com'
 global.github = 'https://github.com/prabathLK/PRABATH-MD'
-global.location = 'Sultanpur IN'
+global.location = 'Eg cairo'
 global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '94762280384'
 global.devs = '94762280384';
 global.website = 'https://github.com/prabathLK/PRABATH-MD' //wa.me/+94762280384
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/H062oEI.jpeg'
 module.exports = {
-  botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
+  botname: process.env.BOT_NAME || '𝕺𝖃★𝕸𝖃┃ᴮᴼᵀ',
   autosticker: process.env.AUTO_STICKER || 'false',
   autovoice: process.env.AUTO_VOICE || 'false',
   botapikey: process.env.BOTCAHX_API || '',
   alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg',
   alivemsj: process.env.ALIVE_MSJ || '*The bot developer is prabath* 🎊',
-  ownername:process.env.OWNER_NAME || 'PRABATH',
-  sessionName: process.env.SESSION_ID || 'PUT-HERE',
-  author: process.env.PACK_INFO.split(";")[0] || 'author', 
+  ownername:process.env.OWNER_NAME || '𝕺𝖃★𝕸𝖃',
+  sessionName: process.env.SESSION_ID || 'PRABATH-MD::UFJBQkFUSC1NRDo6c2Vzc2lvbl9yYV8yMDNiMTc2MjQ1YzZmY192aTo6V2lsbGluZ0JlY29taW5nCjo6YzJmYTAzZDg4MTExZDE4NTUyMDFkMjk5OTA3',
+  author: process.env.PACK_INFO.split(";")[0] || '𝕺𝖃★𝕸𝖃┃ᴮᴼᵀ', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
-  packname: process.env.PACK_INFO.split(";")[1] || 'Name',
+  packname: process.env.PACK_INFO.split(";")[1] || '𝟛𝟟',
   autoreaction: process.env.AUTO_REACTION || 'off',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
   alwaysonline: process.env.ALWAYS_ONLINE || 'false',
